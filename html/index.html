@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <style>
+      #wrap{
+          width: 1920px;
+          height:800px;
+          margin:0 auto;
+          position:relative;
+          top: 107px;
+          overflow: hidden;
+      }
+      #inner{
+          width: 1000%;
+          height:100%;
+          position:absolute;
+          left:0;
+          top:0;
+      }
+      #inner img{
+          width:10%;
+          float: left;
+      }
+      .paganation{
+          width: 100%;
+          position: absolute;
+          bottom:10px;
+          left: 48%;
+          text‐align:center;
+
+
+      }
+      .paganation span{
+          background: #F2F2F2;
+          color:red;
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          line-height: 30px;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 50%;
+      }
+      .paganation span:hover{
+          background: rgba(0,0,0,0.5);
+      }
+
+      .paganation .selected{
+          background: rgba(0,0,0,0.5);
+          color:white;
+      }
+    </style>
+  <!--  <script type="text/javascript" src="../js/index.js"></script>-->
+</head>
+<body>
+
+<!--头部-->
+<header class="head">
+        <div class="main">
+            <div class="left">
+            </div>
+            <div class="right">
+                <div class="number">
+                    400服务热线：<span style="color: #F28900;">400-180-8626</span>
+                    <a href="#">
+                    <select name="Language" id="CL"style="background-color: #F28900;width: 112px;height: 30px;">
+                        <option value="Language"style="background-color:#EEEEEE;">Language</option>
+                        <option value="zw"style="background-color: white">中文</option>
+                        <option value="English"style="background-color: white">English</option>
+                    </select>
+                    </a>
+                </div>
+                <div class="nav">
+                     <ul>
+                         <li class="list1"><a href="index.html"style="color:#F9BA50;">首页</a></li>
+                         <li class="list2"><a href="file2.html">关于浩驰</a></li>
+                         <li class="list3"><a href="file3.html">浩驰服务</a></li>
+                         <li class="list4"><a href="file4.html">增值服务</a></li>
+                         <li class="list5"><a href="file5.html">浩驰动态</a></li>
+                         <li class="list6"><a href="file6.html">加入浩驰</a></li>
+                     </ul>
+                </div>
+        </div>
+    </div>
+</header>
+<!--内容一 轮播大图片-->
+<!--轮播实现-->
+<div id="wrap">
+    <div id="inner" class="clear">
+          <img src="../img/20150529160535715.jpg" alt=""/>
+          <img src="../img/2ddd.jpg" alt=""/>
+          <img src="../img/3.jpg" alt=""/>
+          <img src="../img/20150529160535715.jpg" alt=""/>
+    </div>
+    <div class="paganation" id="paganation">  <!‐‐ 页面按钮区域 ‐‐>
+        <span class ="selected"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+
+
+
+<!--箭头-->
+<div class="trangle">
+</div>
+
+<!--内容二-->
+<section class="two">
+    <div class="top">
+   <h2 style="display: block;margin: 0 auto;width: 200px"><span style="font-size: 40px;color: #b4b4b4;border-bottom: 1px solid #b4b4b4">MD&</span><span style="color: #f65600;font-size: 40px;border-bottom: 1px solid #b4b4b4">业务</span></h2>
+    <p style="display: block;margin-top: 40px;">浩驰网络集电子商务综合服务、软件开发与销售、数字技术服务、多媒体互动服务、货物及技术进出口等互联网技术和服务于一体。凭借数字技术与电子商务运营经验，在行业垂直电子商务领域迅速崛起。</p>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li>
+                <div class="icon icon1"></div>
+                  <h3 class="h">网站建设及传播</h3>
+                <div class="p">
+                  <p>网站建设、网络传播、企业网站相关的网站运营推广。</p></div>
+                <a href="#"class="more">产看更多
+                    <div class="little_square_top"></div>
+                    <div class="little_square_bottom"></div>
+                </a>
+            </li>
+
+            <li>
+                <div class="icon icon2"></div>
+                <h3 class="h">多媒体互动</h3>
+                <div class="p">
+                    <p>三维动画，产品交互展示，影视制作</p></div>
+                <a href="#"class="more">产看更多
+                <div class="little_square_top"></div>
+                <div class="little_square_bottom"></div>
+                </a>
+            </li>
+
+            <li>
+                <div class="icon icon3"></div>
+                <h3 class="h">数字化展馆</h3>
+                <div class="p">
+                    <p>企业展厅，展览展会，数字化展厅</p></div>
+                <a href="#"class="more">产看更多
+                    <div class="little_square_top"></div>
+                    <div class="little_square_bottom"></div>
+                </a>
+            </li>
+
+            <li>
+                <div class="icon icon4"></div>
+                <h3 class="h">电子商务</h3>
+                <div class="p">
+                    <p>电商咨询服务，平台搭建运营</p></div>
+                <a href="#"class="more">产看更多
+                    <div class="little_square_top"></div>
+                    <div class="little_square_bottom"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!--内容三ser-->
+<section class="three">
+    <div class="top">
+        <h2 style="display: block;margin: 0 auto;width: 200px"><span style="font-size: 40px;color: #b4b4b4;border-bottom: 1px solid #b4b4b4">SER&</span><span style="color: #f65600;font-size: 40px;border-bottom: 1px solid #b4b4b4">服务</span></h2>
+        <p style="display: block;margin-top: 40px;margin: 0 auto">浩驰网络创建并运营中国首家食品行业垂直电子商务——“好吃天下”， 提供大宗贸易、产地直供、线上东亚国际食品博览会、跨境贸易、网商联盟、
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌传播、在线支付结算及在线保理、在线融资等特色服务。</p>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li>
+                <div class="icon1"></div>
+                <div class="desc">
+                   <h3 class="h">线上食博会</h3>
+                    <div class="p"> <p> 将打造成永不落幕的线上东亚食博会。</p></div>
+                    <a href="#"class="more">查看更多
+                    <div class="little_square_top"></div>
+                    <div class="little_square_bottom"></div>
+                </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon2"></div>
+                <div class="desc">
+                <h3 class="h">产地直供</h3>
+               <div class="p"> <p >最优质的烟台特产美食直接从生产基地到达自己的餐桌。</p></div>
+                <a href="#"class="more">查看更多
+                    <div class="little_square_top"></div>
+                    <div class="little_square_bottom"></div>
+                </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon3"></div>
+                <div class="desc">
+                <h3 class="h">网商联盟</h3>
+                <div class="p"><p >专门为商家提供产品关联营销和互助推广服务。</p></div>
+                <a href="#"class="more">查看更多
+                    <div class="little_square_top"></div>
+                    <div class="little_square_bottom"></div>
+                </a>
+                </div>
+            </li>
+            <li>
+                <div class="icon4"></div>
+                <div class="desc">
+                <h3 class="h">品牌街</h3>
+                <div class="p"><p >为本地食品企业打造品牌服务，帮助企业提升品牌价值和企业整体软实力。</p></div>
+                <a href="#"class="more">查看更多
+                    <div class="little_square_top"></div>
+                    <div class="little_square_bottom"></div>
+                </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<section class="four">
+    <div class="top">
+        <h2 style="display: block;margin: 0 auto;width: 230px;"><span style="font-size: 40px;color: #b4b4b4;border-bottom: 1px solid #b4b4b4">CASE&</span><span style="color: #f65600;font-size: 40px;border-bottom: 1px solid #b4b4b4">案例</span></h2>
+        <div class="list">
+            <ul>
+                <li><a href="#"class="list1">网站建设与传播</a></li>
+                <li><a href="#"class="list2">电子商务</a></li>
+                <li><a href="#"class="list3">数字化展馆</a></li>
+                <li><a href="#"class="list4">多媒体互动</a></li>
+                <li><a href="#"class="list5">软件服务</a></li>
+                <li><a href="#"class="list6">移动开发</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="border">
+            <a href="#" class="big">
+          <img src="../img/dfdg.jpg" alt=""width="543.2px"height="543.2px"class="img"/>
+              <div class="desc">
+                  <div class="frame">
+                  <h3 class="h">“中国兽药饲料交易中心”平台</h3>
+                  <div class="p"><p>集中兽药饲料行业产业链中个环节的药厂企业和经销商</p></div>
+                  </div>
+              </div>
+                </a>
+
+                <div class="small">
+              <div class="box">
+                  <a href="#" class="small_">
+                  <img src="../img/dsdsadadasdasdaff.jpg" alt=""width="271.58px"height="271.58px"/>
+                  <div class="small_desc">
+                      <div class="frame">
+                      <h3 class="h">轻骑摩托</h3></div>
+                  </div>
+              </a>
+              </div>
+              <div class="box">
+                  <a href="#" class="small_">
+                  <img src="../img/dsaddasd.jpg"width="271.58px"height="271.58px"/>
+                      <div class="small_desc">
+                          <div class="frame">
+                          <h3 class="h">上海追日</h3></div>
+                      </div>
+                      </a>
+              </div>
+              <div class="box">
+                  <a href="#" class="small_">
+                  <img src="../img/2Q==.jpg" alt=""width="271.58px"height="271.58px"/>
+                      <div class="small_desc">
+                          <div class="frame">
+                          <h3 class="h">好吃天下</h3></div>
+                      </div>
+                  </a>
+              </div>
+              <div class="box">
+                  <a href="#" class="small_">
+                  <img src="../img/faffafwfw.jpg" alt=""width="271.58px"height="271.58px"/>
+                      <div class="small_desc">
+                          <div class="frame">
+                          <h3 class="h">华海保险</h3></div>
+                      </div>
+                      </a>
+              </div>
+              <div class="box">
+                  <a href="#" class="small_">
+                  <img src="../img/dddd.jpg" alt=""width="271.58px"height="271.58px"/>
+                      <div class="small_desc">
+                          <div class="frame">
+                          <h3 class="h">中国重汽</h3></div>
+                      </div>
+                      </a>
+              </div>
+              <div class="box">
+                  <a href="#" class="small_">
+                  <img src="../img/dddddd.jpg" alt=""width="271.58px"height="271.58px"/>
+                      <div class="small_desc">
+                          <div class="frame">
+                          <h3 class="h">上海海加</h3></div>
+                      </div>
+                      </a>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="time"></div>
+</section>
+
+<section class="five">
+      <div class="title">
+      <h3 class="top"style="font-size: 40px;color:#b4b4b4">NEWS&<span style="color: coral">新闻</span></h3>
+          <a href="#"style="margin-left: 37%;border-color: coral;color: coral">全部新闻</a>
+          <a href="#">公司动态</a>
+      </div>
+    <div class="article">
+        <a href="#" class="row">
+            <div class="time">
+                <h3 class="h">16</h3>
+                <p class="p">2015-06</p>
+            </div>
+            <div class="desc">
+                <h4>2015年烟台食品安全宣传活动正式启动 打造食安烟台品牌</h4>
+                <p>6月16日9点30分，由烟台市食品安全委员会办公室，烟台食品药品监管局主办的2015年烟台食品安全宣传周活动在烟台...</p>
+            </div>
+        </a>
+        <a href="#" class="row">
+            <div class="time">
+                <h3 class="h">16</h3>
+                <p class="p">2015-06</p>
+            </div>
+            <div class="desc">
+                <h4>2015年烟台食品安全宣传活动正式启动 打造食安烟台品牌</h4>
+                <p>6月16日9点30分，由烟台市食品安全委员会办公室，烟台食品药品监管局主办的2015年烟台食品安全宣传周活动在烟台...</p>
+            </div>
+        </a>
+        <a href="#"class="row">
+            <div class="time">
+                <h3 class="h">16</h3>
+                <p class="p">2015-06</p>
+            </div>
+            <div class="desc">
+                <h4>2015年烟台食品安全宣传活动正式启动 打造食安烟台品牌</h4>
+                <p>6月16日9点30分，由烟台市食品安全委员会办公室，烟台食品药品监管局主办的2015年烟台食品安全宣传周活动在烟台...</p>
+            </div>
+        </a>
+        <a href="#"class="row">
+            <div class="time">
+                <h3 class="h">16</h3>
+                <p class="p">2015-06</p>
+            </div>
+            <div class="desc">
+                <h4>2015年烟台食品安全宣传活动正式启动 打造食安烟台品牌</h4>
+                <p>6月16日9点30分，由烟台市食品安全委员会办公室，烟台食品药品监管局主办的2015年烟台食品安全宣传周活动在烟台...</p>
+            </div>
+        </a>
+        <a href="#"class="row">
+            <div class="time">
+                <h3 class="h">16</h3>
+                <p class="p">2015-06</p>
+            </div>
+            <div class="desc">
+                <h4 style="font-size: 16px">2015年烟台食品安全宣传活动正式启动 打造食安烟台品牌</h4>
+                <p>6月16日9点30分，由烟台市食品安全委员会办公室，烟台食品药品监管局主办的2015年烟台食品安全宣传周活动在烟台...</p>
+            </div>
+        </a>
+        <a href="#" class="row">
+            <div class="time">
+                <h3 class="h">16</h3>
+                <p class="p">2015-06</p>
+            </div>
+            <div class="desc">
+                <h4>2015年烟台食品安全宣传活动正式启动 打造食安烟台品牌</h4>
+                <p>6月16日9点30分，由烟台市食品安全委员会办公室，烟台食品药品监管局主办的2015年烟台食品安全宣传周活动在烟台...</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+
+<footer class="foot">
+        <div class="_head"><img src="../img/foot_logo.png" alt=""style="display: block;float: left;margin-left: 20%;margin-top: 18px"/><span style="color: #aaa;display: block;float: left;margin-left: 10px;margin-top: 3px;font-size: 16px">互联网综合解决方案提供商</span></div>
+        <div class="_nav">
+            <a href="#"class="foot_list1">公司介绍</a>
+            <a href="#"class="foot_list2">招聘信息</a>
+            <a href="#"class="foot_list3">联系我们</a>
+            <a href="#"class="foot_list4">公司图片</a>
+        </div>
+        <div class="share">
+            <a href="#"class="a1"><div class="_icon _icon1"></div></a>
+            <a href="#"><div class="_icon _icon2"></div></a>
+            <a href="#"><div class="_icon _icon3"></div></a>
+            <a href="#"><div class="_icon _icon4"></div></a>
+            <a href="#"><div class="_icon _icon5"></div></a>
+            <a href="#"><div class="_icon _icon6"></div></a>
+
+        </div>
+        <div class="info">
+              <span>电话：400-180-8626，0535-8019228，0535-8019279 传真：0535-8019269 邮箱：</span>
+            <a href="#">haochi@hugch.com</a><span>网址：</span><a href="#">www.hugch.com</a>
+            <br/>
+            <a href="#">浩驰网络 版权所有</a><span>Copyright © 2015 All rights reserved <a href="#">[鲁ICP备15001280号]</a> </span>
+            <br/>
+            <a href="#">杰瑞数字</a><span>制作维护</span>
+            <div class="_left"><img src="../img/左.png" alt=""/>
+                <p>公众微信</p>
+            </div>
+            <div class="_right"><img src="../img/右.png" alt=""/>
+                <p>手机站</p>
+            </div>
+        </div>
+</footer>
+<!--<div class="zuobuguding">
+       <ul>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ul>
+</div>-->
+</body>
+<script type="text/javascript">
+    var wrap=document.getElementById("wrap");//获取图片展示区总的区域
+    var inner=document.getElementById("inner");//获取包含图片的区域
+    var spanList=document.getElementById("paganation").getElementsByTagName("span");//获取数字导航
+    var left=document.getElementById("left");
+    var right=document.getElementById("right");
+    var clickFlag=true;//设置左右切换标记位防止连续按,效果有点不同
+    var time;//主要用来设置自动滑动的计时器
+    var index=0;//记录每次滑动图片的下标
+    var Distance=wrap.offsetWidth;//获取展示区的宽度，即每张图片的宽度
+    /*
+     * offsetwidth:是元素相对父元素的偏移宽度。等于border+padding+width
+     * */
+
+    //定义图片滑动的函数
+    function AutoGo(){
+        var start=inner.offsetLeft;//获取移动块当前的left的开始坐标
+        /*
+         *   刷新页面默认是第一张图，第二张图就是要移动的
+         *   此时第二张没出来。获取到的start为0
+         * */
+        var end=index*Distance*(-1);//获取移动块移动结束的坐标。即图片左移的距离
+        console.log(end);
+        //计算公式即当移动到第三张图片时，图片下标为2乘以图片的宽度就是块的left值。
+        var change=end-start;//偏移量   -510 - 0
+        var timer;//用计时器为图片添加动画效果
+        var t=0;
+        var maxT=20;//用于计算图片的偏移量： 值越大移动的越慢(计算时做分母)
+        /*
+         * 先把按钮状态清除,再让对应按钮改变状态
+         * */
+        clear();
+        if(index==spanList.length){
+            spanList[0].className="selected";
+        }else{
+            spanList[index].className="selected";
+        }
+        clearInterval(timer);//开启计时器前先把之前的清chu
+        timer=setInterval(function(){
+            /* debugger*/
+            t++;
+            if(t>=maxT){//当图片到达终点停止计时器
+                clearInterval(timer);
+                clickFlag=true;//当图片到达终点才能切换
+            }
+            inner.style.left=change/maxT*t+start+"px";//每个17毫秒让块移动
+            if(index==spanList.length&&t>=maxT){
+                inner.style.left=0;
+                index=0; //当图片到最后一张时把它瞬间切换回第一张，由于都同一张图片不会影响效果
+            }
+        },15);
+
+
+    }
+    //开启图片自动向右滑动的计时器
+    time=setInterval(forward,3000);
+    /*
+     *   自动轮动图片方法
+     * */
+    function forward(){
+        /*  debugger*/
+        index++;
+        //当图片下标到最后一张把小标换0
+        if(index>spanList.length){
+            index=0;
+        }
+        AutoGo();
+    }
+    //图片向左滑动函数
+    function backward(){
+        index--;
+        //当图片下标到第一张让它返回到倒数第二张，
+        //left值要变到最后一张才不影响过渡效果
+        if(index<0){
+            index=spanList.length-1;
+            inner.style.left=(index+1)*Distance*(-1)+"px";
+        }
+        AutoGo();
+    }
+    //设置鼠标悬停动画停止
+    wrap.onmouseover=function(){
+        clearInterval(time);
+    }
+    wrap.onmouseout=function(){
+        time=setInterval(forward,3000);
+    }
+    //遍历每个按钮让其切换到对应图片
+    for(var i=0;i<spanList.length;i++){
+        spanList[i].index=i;
+        spanList[i].onclick=function(){
+            index=this.index;
+            AutoGo();
+        }
+    }
+    //左切换事件
+    left.onclick=function(){
+
+        if(clickFlag){
+            backward();
+        }
+        clickFlag=false;
+    }
+    //右切换事件
+    right.onclick=function(){
+        if(clickFlag){
+            forward();
+        }
+        clickFlag=false;
+    }
+    //清除页面所有按钮状态颜色
+    function clear(){
+        for(var i=0;i<spanList.length;i++){
+            spanList[i].className="";
+        }
+    }
+</script>
+</html>
